@@ -1,5 +1,5 @@
 rules_version = '2';
-// RimRunner Firestore rules (same as the other Rim Runner states). Project: rimrunnernorthcarolina.
+// RimRunner Firestore rules (same as the other Rim Runner states). Project: the site's own Firebase project (rimrunnerwestvirginia, not created yet: HELD).
 // Data written by index.html: profiles/{uid}, userFollows/{uid},
 // picks/{week}/entries/{uid}, teamFollows/{teamId}. Everything else is denied.
 service cloud.firestore {
